@@ -1,0 +1,118 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:"Roboto",sans-serif;
+
+}
+body{
+
+	
+	height : 99vh;
+	background :linear-gradient(to bottom right , #ca2996 ,#6e0d8b  ) ;
+
+
+
+}
+
+header{
+	width:auto;
+	overflow:auto;
+	margin-top :1%;
+}
+
+nav{
+	
+	float :right;
+	margin-right:5%;
+	margin-top:1.9%;
+
+}
+nav ul {
+	
+	width:auto;
+	overflow:auto;
+	
+}
+nav ul li{
+	
+	display :inline-block;
+	list-style:none;
+	padding :13px 15px;
+}
+
+nav ul .a{
+	
+	background-color :white;
+	border: 1px outset #fff ;
+	border-radius: 12px;
+	
+}
+nav ul li a {
+    text-width :20px;
+	text-decoration : none ;
+	color :#1a0d8a;
+	font-size:17px;
+    font-family: Georgia;
+}
+
+.navbar{
+
+	width :100%;
+	height:15vh;
+	margin:auto;
+	display:flex;
+	
+}
+
+.wave{
+	position :fixed ;
+	bottom : 0% ;
+	left : 0%;
+}
+li { text-transform : capitalize   }
+
+.text1{
+	
+	margin-top:8%;
+	margin-left :2%;
+	font-family: Georgia;
+	color:#fff;
+	
+}
+
+.text2{
+	
+	margin-left :20%;
+	font-family: Georgia;
+	color:#fff;
+	
+}
+.text3{
+
+
+	margin-left :1.9%;
+	font-family: Georgia;
+	color:#fff;
+	font-size:355%
+}
+p{  text-transform : capitalize ; font-size:300% ;font-style:bold}
+
+
+.img
+{
+height : 76%;
+	position :fixed;
+	top : 78px;
+	right :-30px;
+
+}
+		
+.logo {
+	align : top left;
+	position : fixed;
+	top : -50px;
+	left : 8%;
+	width :259px
+
+
+}

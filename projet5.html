@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>connexion</title>
+    <link rel="stylesheet"  href="style5.css">
+</head>
+
+<body>
+
+
+<div class ="a">
+
+<div class="container">
+<img src="img/12.png" class="logo">	
+</div>
+<div class="form">
+<div class="botton">
+<div   id="btn"></div>
+<button type="button" class="b"   onclick ="login()">Connexion</button>
+<button type="button" class="b" onclick ="register()">Inscription</button>
+ 
+</div>
+<div class="icons">
+<img src="img/facebook.png"   >
+<img src="img/instag.png">
+<img src="img/yout.png">
+</div>
+
+<form id="login" class="in"  method="post" action="http://localhost/connexion.php"  >
+
+<input type="text" name="nom_d'utilisateur" class="in_field" placeholder="Nom d'utilisateur" required>
+<input type="password" name="mot de passe" class="in_field" placeholder="Mot de passe" required >
+<input type="checkbox" class="check"><span>se souvenir du mot de passe</span>
+<button type="submit" class="sub" >Connexion</button>
+
+
+</form>
+
+
+<form id="register" class="in"  method="post" action="http://localhost/inscription.php">
+
+<input type="text" name="nom_d'utilisateur" class="in_field" placeholder="Nom d'utilisateur" required>
+<input type="text" name="email" class="in_field" placeholder="Email" required >
+<input type="password" name="mot_de_passe" class="in_field" placeholder="Mot de passe" required >
+<input type="checkbox" class="check"  required><span>J'accepte les termes et  conditions</span>
+<button type="submit" class="sub" >Inscription</button>
+
+
+</form>
+
+
+</div>
+</div>
+
+<script>
+
+var x = document.getElementById("login");
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
+
+function register(){
+
+x.style.left = "-400px";
+y.style.left = "50px";
+z.style.left = "110px";
+
+
+}
+
+
+function login(){
+
+x.style.left = "50px";
+y.style.left = "450px";
+z.style.left = "0";
+
+
+}
+
+
+
+
+</script>
+
+
+</body>
+
+
+
+</html>
